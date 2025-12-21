@@ -1,0 +1,472 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+   
+     box-sizing: border-box;
+
+     font-family: "Poppins", sans-serif;
+}
+/*image oberline*/
+  
+  
+
+header .logo  img {
+ 
+  width: 250px;
+  height: auto;
+  padding:  70px 30%;
+
+}
+header {
+
+  display: flex;
+  width: 100%;
+  padding:  10px 8%;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+
+}
+ul {
+    
+    display: flex;
+    list-style: none;
+    width: 50%;
+   align-items: center;
+    justify-content: space-between;
+    
+}
+ul li a{
+  color: black;
+  text-decoration: none;
+}
+header ul li a:hover{
+   color: orange;
+   cursor: pointer;
+   text-decoration: underline;
+   padding: 2px;
+   
+    
+    
+}
+.btn {
+  
+ 
+ 
+   width: 30%;
+    display: flex;
+    justify-content: end;
+}
+header .btn .boutton-connexion  {
+ 
+  
+  padding: 10px 20px;
+   display: flex;
+   color:black;
+   border-radius: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+  background-color: white;
+  border: 1px;
+   
+  
+}
+header .btn .boutton-inscription  {
+ 
+  
+  padding: 10px 20px;
+   display: flex;
+   color:white;
+   border-radius: 10px;
+  cursor: pointer;
+  border: 1px;
+  background-color: #E65100;
+   
+  
+}
+.partie-a {
+  background: url(images/banner-head-accueil.jpg);
+  position: relative;
+  height: 550px;
+  width: 100%;
+   background-size: cover; /*permet de garder la taille initiale d un element */
+  
+   
+   background-position: bottom;
+  
+    
+
+}
+
+.partie-a .effet-ombre{
+  position: absolute;
+  width: 100%;
+  background: #e651007e;
+  height: 100%;
+  
+  padding: 150px;
+
+}
+
+
+
+.partie-a  .image-2 img {
+    
+    width: 450px; /*largeur*/
+   height: 250px; /*hauteur*/
+  
+   border-radius: 20px;
+   
+   object-fit: cover;
+   position: absolute;
+   left: 600px;
+   bottom: 25%;
+  
+  
+}
+.partie-a .image-2 a{
+  
+  border-radius:15px ;
+  object-fit: cover;
+  position: absolute;
+  padding: 1px  25px;
+  font-size: small;
+  color: #E65100;
+  background-color:rgba(255, 255, 255, 0.8);
+  width: 200px;
+  height: 25px;
+  margin-left: 680px;
+ margin-top: -15%;
+  position:absolute;
+  
+   
+  
+ 
+
+}
+
+.partie-a   h1 span {
+  color:orange;
+  
+  
+}
+.partie-a   h1 {
+  color:white;
+  
+  
+}
+
+.partie-a  p {
+ 
+ color: white;
+ 
+}
+
+
+
+.statistiques .sta span { 
+  color: chocolate;
+  font-weight: bold;
+  font-size: 130%;
+ 
+ 
+}
+
+
+.statistiques .couleur-sta{
+  background-color: #fff3e0;
+ display: flex;
+ justify-content: space-between;
+  height: 200px;
+   text-align: center;
+  padding: 20px  150px;
+  align-items: center;
+  width: 100%;
+  
+ 
+   
+   
+}
+.statistiques .couleur-sta .sta {
+  background-color: white;
+  border-radius: 10%;
+  padding:  15px ;
+  margin: 10px;
+   
+  height: 120px;
+  width: 300px;
+  
+}
+.partie-b .titre {
+  text-align:center ;
+}
+.partie-b .service {
+  
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px  150px;
+ 
+  
+}
+
+.partie-b .service   p {
+  color: darkgoldenrod;
+
+}
+.partie-b .service   span {
+  color: #7e5a05;
+  font-weight: bold;
+
+}
+.service  a{
+  color: darkorange;
+}
+
+.partie-b .service .services-rest1{
+  background-color: #ffb30065;
+  border-radius: 10%;
+  width: 850px;
+  height: 195px;
+  padding:15px 20px;
+  margin-right: 2%;
+  
+}
+.partie-b .service .services-rest2{
+  background-color:#fff3e0 ;
+  border-radius: 10%;
+  width: 850px;
+  height: 195px;
+  padding:15px 20px;
+  margin-right: 2%;
+}
+.partie-b .service .services-rest3{
+  background-color: #ffb30065;
+  border-radius: 10%;
+  width: 850px;
+  height: 195px;
+  padding:15px 40px;
+  margin-right: 2%;
+}
+
+
+.partie-c{
+  background-color: #fff3e0;
+  height: 400px;
+  width: 100%;
+  
+  justify-content: center;
+}
+.partie-c h3{
+  text-align: center;
+  padding-top: 40px ;
+  
+}
+.partie-c iframe {
+  width: 600px;
+  height: 300px;
+  border-radius:10px;
+
+  
+  margin-left: 350px;
+  padding-bottom: 25px;
+    
+}
+
+.temoignage-list  h3{
+  text-align: center;
+  padding-left: 100px ;
+ 
+}
+.temoignage-list .temoignage {
+ height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px  150px;
+  background-color:rgba(252, 249, 249, 0.993);
+  
+
+}
+.temoignage-list .temoignage p {
+  font-size: small;
+  font-style: italic;
+}
+
+.temoignage-list .temoignage .temoignage1{
+ background-color: white;
+  border-radius: 10px;
+  width: 350px;
+  height: 150px;
+  padding:10px 20px;
+  margin-right: 2%;
+  margin-bottom: 50px;
+  
+}
+.temoignage-list .temoignage .temoignage1 h6 span {
+   margin-left:20px ;
+    background-color: #e2ded3;
+    height: 60px;
+    width: 70px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid yellow;
+    font-size: medium;
+    margin-right: 10px;
+   
+}
+.temoignage-list .temoignage .temoignage2 h6 span {
+   margin-left:20px ;
+    background-color: #e4aa0c;
+    height: 60px;
+    width: 70px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid yellow;
+    font-size: medium;
+    margin-right: 10px;
+}
+.temoignage-list .temoignage .temoignage3 h6 span {
+    margin-left:20px ;
+    background-color: #34eb06;
+    height: 60px;
+    width: 70px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid yellow;
+    font-size: medium;
+    margin-right: 10px;
+}
+.temoignage-list .temoignage .note{
+  margin-left:50px ;
+  height: 5px;
+  width: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 2px;
+  
+}
+.temoignage-list .temoignage .note .note-etoilebla {
+  height: 5px;
+  width: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 2px;
+  
+}
+.temoignage-list .temoignage  i {
+  color: rgb(233, 233, 7);
+  width: 16px;
+  margin-right: 5px;
+  padding: 1px 2px;
+  
+}
+.temoignage-list  .temoignage2  .note-etoilebla i {
+  color: rgb(212, 212, 200);
+  
+}
+
+
+.temoignage-list .temoignage .temoignage2{
+   
+background-color: white;
+  border-radius: 10px;
+  width: 350px;
+  height: 150px;
+  padding:10px 20px;
+  margin-right: 2%;
+}
+.temoignage-list .temoignage .temoignage3{
+    
+background-color: white;
+  border-radius: 10px;
+  width: 350px;
+  height: 150px;
+  padding:10px 20px;
+  margin-right: 2%;
+
+}
+
+.commandes{
+  background: url(images/banner-head-accueil.jpg);
+  position: relative;
+  height:350px;
+  width: 100%;
+   background-size: cover; /*permet de garder la taille initiale d un element */
+  
+    background-position: bottom;
+    
+  
+    
+
+}
+
+.commandes .effet-ombre2{
+  position: absolute;
+  width: 100%;
+  background: #e651007e;
+  height: 100%;
+  
+  
+
+}
+.commandes h1  {
+  color: whitesmoke;
+  text-align: center;
+}
+.commandes p  {
+  color: whitesmoke;
+  text-align: center;
+}
+.commandes .boutton button {
+  color: orangered;
+  border: 1px solid orangered;
+  border-radius: 10px;
+  padding: 10px 5px;
+  
+  
+}
+.commandes .boutton{
+  padding: 20px 550px;
+}
+.renseignement{
+  background-color: rgb(2, 2, 51);
+  height:300px;
+  width: 100%;
+
+
+}
+.renseignement .infos{
+  padding: 10px  90px;
+    display: flex;
+ justify-content: space-between;
+ 
+}
+.renseignement .infos h6 {
+  font-size: 80%;
+  color: white;
+}
+.renseignement .infos p {
+  font-size: small;
+  color: white;
+}
+hr{
+  width: 80%;
+ border-top: 1px;
+}
+.renseignement .footer-a {
+  color: white;
+  text-align: center;
+}
+
+
