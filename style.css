@@ -3,11 +3,14 @@
 *{
    
      box-sizing: border-box;
-
+     
      font-family: "Poppins", sans-serif;
 }
 /*image oberline*/
-  
+  body{
+    margin: 0;
+    margin-right: 0;
+  }
   
 
 header .logo  img {
@@ -137,8 +140,7 @@ header .btn .boutton-inscription  {
   height: 25px;
   margin-left: 680px;
  margin-top: -15%;
-  position:absolute;
-  
+ 
    
   
  
@@ -428,11 +430,13 @@ background-color: white;
   color: whitesmoke;
   text-align: center;
 }
-.commandes .boutton button {
+.commandes .boutton a {
   color: orangered;
   border: 1px solid orangered;
+  background-color: white;
   border-radius: 10px;
   padding: 10px 5px;
+  text-decoration: none;
   
   
 }
@@ -468,5 +472,381 @@ hr{
   color: white;
   text-align: center;
 }
+.space-traiteurs1{
+  background: url(images/banner-caterers.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  color: white;
+ 
+}
+.espace-traiteurs2{
+   width: 100%;
+  height: 250px;
+  padding: 20px;
+  background-color: #fff3e0;
+
+
+ display: flex;
+ justify-content: center;
+
+ 
+}
+ .option1 .choix{
+  display: flex;
+  
+ justify-content: center;
+}
+.option1 .p-titres{
+ margin-right: -90px;
+}
+.option1 .p-titrestrai{
+  margin-right: -70px;
+}
+.option1 .choix select {
+  border-radius: 10px;
+  padding: 5px 4px;
+  background-color:white;
+  border: none;
+ margin-left:1px ;
+ margin-right:1px ;
+  margin-top: 50px;
+  width: 250px;
+  height: 40px;
+ 
+}
+.btn-fi{
+ 
+  width: 30%;
+    display: flex;
+   justify-content: space-between;
+    height: 90px;
+    align-items: center; 
+   
+
+}
+.espace-traiteurs2 .titre-h2{
+  margin-right: 100px;
+  padding: 20px 5px;
+}
+
+
+.btn-filtrer{
+   border-radius: 10px;
+   padding: 10px 5px;
+   display: flex;
+   color:black;
+  text-align: center;
+  
+   margin-left: 20px;
+  cursor: pointer;
+  
+  background-color: orangered;
+  border: 1px;
+  cursor: pointer;
+  margin-top: 50px;
+   
+}
+.btn-reinitialiser{
+   border-radius: 10px;
+  padding: 10px 5px;
+   display: flex;
+   color:black;
+   
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: white;
+  border: 1px;
+  margin-top: 50px;
+}
+.space-traiteurs1 .effet-ombre{
+  position: absolute;
+  width: 100%;
+  background: #e6510057;
+  height: 100%;
+  
+  padding: 100px;
+
+}
+.formulaire{
+  height: 1800px;
+  width: 100%;
+   padding: 20px;
+  background-color: #fff3e0;
+}
+.formulaire .formulaire-sous{
+  display: block;
+  justify-content: space-between;
+  background-color: white;
+  height: 1750px;
+  width: 85%;
+   padding: 50px;
+   border-radius: 10px;
+   margin-left: 90px;
+   margin-top: 20px;
+  
+   
+  
+
+}
+.formulaire-1 {
+  background-color: white;
+  height: 200px;
+  width: 100%;
+  padding: 30px 20px;
+   border-radius: 10px;
+  
+   margin-bottom: 20px;
+  box-shadow:10px 1px 1px 1px #f7f7f6;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+   
+}
+
+.formulaire-1 input{
+  padding: 5px 0;
+  border-radius: 5px;
+  margin-bottom:20px ;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 100px;
+ 
+ 
+}
+.formulaire .nom{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.formulaire-2{
+  background-color: white;
+  height: 800px;
+  width: 100%;
+
+   border-radius: 10px;
+   
+   margin-bottom: 20px;
+   box-shadow:10px 1px 1px 1px #f7f7f6;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(150px,1));
+   padding: 10px 100px;
+ 
+}
+.cases {
+  
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-right: 20px;
+}
+.formulaire-2 input, select, textarea{
+   padding: 5px 0;
+  border-radius: 5px;
+  margin-bottom:20px ;
+ background-color: white;
+  margin-left: 20px;
+  margin-right: 100px;
+  width: 700px;
+
+}
+.noms {
+  display: flex;
+  width: 40px;
+  padding: 0 50px;
+}
+.formulaire-3{
+  background-color: white;
+  height: 300px;
+  width: 100%;
+  margin-top: 210px;
+   border-radius: 10px;
+   padding: 10px 30px;
+   margin-right: 10px;
+  
+  box-shadow:10px 1px 1px 1px #f7f7f6;
+   display: block;
+   
+}
+.formulaire-4{
+  box-shadow:10px 1px 1px 1px #f7f7f6;
+  padding: 10px 30px;
+   margin-top: 20px;
+   border-radius: 10px;
+ 
+   
+}
+.btn-upload{
+  box-shadow:10px 1px 1px 1px #d1d1d0;
+  color: #E65100;
+  border-radius: 10px;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+}
+.boutton-inscrire{
+  box-shadow:10px 1px 1px 1px #d1d1d0;
+  color: white;
+  background-color: #E65100;
+  border-radius: 10px;
+  padding: 10px 5px;
+  border: none;
+  width: 80px;
+  margin-top: 20px;
+  margin-left: 750px;
+  cursor: pointer;
+}
+ .prestation{
+  width: 100%;
+  height: 500px;
+ 
+  
+  justify-content: space-between;
+  background-color: #fff3e0;
+}
+
+.prestation .plat-image2{
+   padding: 100px 80px ;
+  border-radius: 10px;
+  height: 50px;
+  width: 1000px;
+  margin-left: 150px;
+  margin-top: -40px;
+  background-color: white;
+  
+  
+}
+
+.prestation .plat-image1{
+   padding: 100px 80px ;
+  border-radius: 10px;
+  height: 50px;
+  width: 1000px;
+  margin-left: 150px;
+  margin-top: -40px;
+  background-color: white;
+  margin-bottom:50px;
+}
+.t-renseignees{
+  display: grid;
+   grid-template-columns: repeat(2,1fr);
+   font-size: small;
+   height: 240px;
+   margin-top: -200px;
+   text-align: right;
+   margin-right: 90px;
+   margin-left: -5px;
+
+
+}
+
+.plat-image1 img {
+position: relative;
+ margin-top: -150px;
+  padding: 50px 70px;
+ background-size: cover;
+ margin-bottom: -60px;
+ margin-left: -150px;
+ height: 300px;
+ }
+.plat-image2 img {
+position: relative;
+ margin-top: -150px;
+  padding: 50px 80px;
+ background-size: cover;
+ margin-bottom: -60px;
+ margin-left: -170px;
+ height: 300px;
+ width: 455px;
+ 
+ }
+
+ .plat-image1 a {
+  
+  border-radius:15px ;
+  object-fit: cover;
+  position: absolute;
+  padding: 1px  5px;
+  font-size: small;
+  color: #001402f1;
+  background-color:rgba(14, 175, 54, 0.5);
+  width: 100px;
+  height: 25px;
+  margin-left: -180px;
+ margin-top: -90px;
+ text-align: center;
+  
+ 
+
+ 
+ }
+ .plat-image2 a {
+  
+  border-radius:15px ;
+  object-fit: cover;
+  position: absolute;
+  padding: 1px  5px;
+  font-size: small;
+  color: #001402f1;
+  background-color:rgba(14, 175, 54, 0.5);
+  width: 100px;
+  height: 25px;
+  margin-left: -195px;
+ margin-top: -90px;
+ text-align: center;
+ 
+ }
+.button-verifie{
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgb(1, 1, 31);
+  background-color: rgb(2, 2, 44);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+ position: absolute;
+ margin-top: 150px;
+ 
+ 
+ 
+}
+.etoiles-etoile {
+  position: absolute;
+  margin-left: 400px;
+  
+}
+.textex-gras{
+  font-weight: bold;
+  margin-right: 70px;
+}
+.p-titre{
+  margin-right: -10px;
+ 
+  color: rgb(165, 164, 164);
+  font-weight: bolder;
+}
+.desc{
+   margin-right: 20px;
+ 
+  color: rgb(165, 164, 164);
+  font-weight: small;
+}
+.prestation  span{
+  background-color: rgb(202, 201, 201);
+  border-radius: 15px;
+  padding: 5px 5px;
+  font-size: 10px;
+  margin-right: 15px;
+}
+.num{
+   margin-right: 20px;
+   color: rgb(165, 164, 164);
+}
+
+
+
+
 
 
